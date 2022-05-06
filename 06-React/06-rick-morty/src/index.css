@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fafafa;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color:#1a1a1a;
+  text-align: center;
+}
+
+#root {
+  width: 80%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fafafa;
+  margin: 1rem, 0.5rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.character-card-unknown {
+  background-color: #4f4f4f;
+  opacity: .5;
+}
+
+.character-card-alive {
+  background-color: #035d00;
+  opacity: 1;
+}
+
+.character-card-dead {
+  background-color: #550000;
+  opacity: .5;
+}
+
+.character-description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status-alive, .status-dead, .status-unknown {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.status-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s;
+  border-radius: 30px;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fafafa;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+#loading {
+  font-size: large;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+}
+
+.status-alive {
+  box-shadow: 0px 0px 30px rgba(0, 223, 30, 1);
+}
+
+.alive-text {
+  color: #00ff00;
+}
+
+.status-dead {
+  box-shadow: 0px 0px 30px rgba(255, 24, 24, 1);
+}
+
+.dead-text {
+  color: #ff0000;
+}
+
+.dead > img {
+  filter: grayscale(100%);
+}
+
+.status-unknown {
+  box-shadow: 0px 0px 30px rgba(232, 232, 232, 1);
+}
+
+.unknown-text {
+  color: rgb(138, 138, 138);
+}
