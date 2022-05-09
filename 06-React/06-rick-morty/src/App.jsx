@@ -37,7 +37,7 @@ function App() {
     (async () => {
       setLoading(true);
       let allChars = [];
-      for (let i = 1; i < 42; i++) {
+      for (let i = 1; i < 10; i++) {
         const reponse = await fetch(
           'https://rickandmortyapi.com/api/character/?page=' + i,
         );
