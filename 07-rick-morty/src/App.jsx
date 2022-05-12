@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import UserList from './src/components/UserList/UserList'
+import UserList from './components/UserList/UserList'
 
 
 function App() {
