@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react'
+import './App.css'
+import UserList from './components/UserList/UserList'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
+    <div id="apps">
+      <header>
+        <h1>Exercício API Rick & Morty - REACT</h1>
       </header>
+      <main>
+        <UserList />
+      </main>
     </div>
   );
 }
