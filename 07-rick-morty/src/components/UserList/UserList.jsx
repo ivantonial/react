@@ -4,8 +4,8 @@
 
 
 function UserList() {
-  const [characters, setCharacters] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [characters, setCharacters] = React.useState([]);
+  const [loading, setLoading] = React.useState(false);
 
   const asyncCheck = async () => {
     setLoading(true);
