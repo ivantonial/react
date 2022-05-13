@@ -3,20 +3,19 @@
 // import App from './App'
 // import './index.css'
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-
-root.render((
-  <div>
-    <App />
-  </div>
-));
-
-
-// .render(
+// ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
 //     <App />
 //   </React.StrictMode>
 // )
+
+const rootElement = document.getElementById('root');
+
+const root = createRoot(rootElement);
+
+
+root.render((
+  <StrictMode>
+    <App />
+  </StrictMode>
+));
