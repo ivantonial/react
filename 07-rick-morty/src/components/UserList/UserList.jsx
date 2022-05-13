@@ -21,7 +21,7 @@ function UserList() {
     setLoading(false);
   }
 
-  useEffect(() => {
+  React.useEffect(() => {
     asyncCheck();
   }, []);
 
