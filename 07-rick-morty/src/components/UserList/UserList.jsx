@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import Card from '../Card/Card';
-import Loading from '../Loading/Loading'
+// import React, { useEffect, useState } from 'react';
+// import Card from '../Card/Card';
+// import Loading from '../Loading/Loading'
 
 
 function UserList() {
