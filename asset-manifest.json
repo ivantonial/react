@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react/08-rick-morty-new/static/css/main.6ef4a87a.css",
+    "main.js": "/react/08-rick-morty-new/static/js/main.44bd469d.js",
+    "index.html": "/react/08-rick-morty-new/index.html",
+    "main.6ef4a87a.css.map": "/react/08-rick-morty-new/static/css/main.6ef4a87a.css.map",
+    "main.44bd469d.js.map": "/react/08-rick-morty-new/static/js/main.44bd469d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ef4a87a.css",
+    "static/js/main.44bd469d.js"
+  ]
+}
