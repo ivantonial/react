@@ -9,13 +9,4 @@
 //   </React.StrictMode>
 // )
 
-const rootElement = document.getElementById('root');
-
-const root = createRoot(rootElement);
-
-
-root.render((
-  <StrictMode>
-    <App />
-  </StrictMode>
-));
+ReactDOM.render(<App />, document.getElementById('root'));
